@@ -13,4 +13,7 @@ urlpatterns = [
     path('', include('snippets.urls')),
     path('', include('snippets.urls')),
     path('admin/', admin.site.urls),
+    path('', include('snippets.urls')),
+    path('', include('snippets.urls')),
+    path('admin/', admin.site.urls),
 ]
