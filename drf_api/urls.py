@@ -11,5 +11,6 @@ urlpatterns = [
     # path('api/token', obtain_auth_token, name='obtain-token'),
     # #path('', include('radio_api.urls')),
     path('', include('snippets.urls')),
+    path('', include('snippets.urls')),
     path('admin/', admin.site.urls),
 ]
